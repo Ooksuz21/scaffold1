@@ -11,5 +11,5 @@ lint:
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 
-tamamı: lint install test
+all: install lint  test
 
